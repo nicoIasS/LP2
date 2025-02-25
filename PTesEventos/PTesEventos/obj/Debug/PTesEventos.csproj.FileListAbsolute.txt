@@ -1,0 +1,10 @@
+C:\Users\0030482421009\source\repos\PTesEventos\PTesEventos\bin\Debug\PTesEventos.exe.config
+C:\Users\0030482421009\source\repos\PTesEventos\PTesEventos\bin\Debug\PTesEventos.exe
+C:\Users\0030482421009\source\repos\PTesEventos\PTesEventos\bin\Debug\PTesEventos.pdb
+C:\Users\0030482421009\source\repos\PTesEventos\PTesEventos\obj\Debug\PTesEventos.csproj.AssemblyReference.cache
+C:\Users\0030482421009\source\repos\PTesEventos\PTesEventos\obj\Debug\PTesEventos.Form1.resources
+C:\Users\0030482421009\source\repos\PTesEventos\PTesEventos\obj\Debug\PTesEventos.Properties.Resources.resources
+C:\Users\0030482421009\source\repos\PTesEventos\PTesEventos\obj\Debug\PTesEventos.csproj.GenerateResource.cache
+C:\Users\0030482421009\source\repos\PTesEventos\PTesEventos\obj\Debug\PTesEventos.csproj.CoreCompileInputs.cache
+C:\Users\0030482421009\source\repos\PTesEventos\PTesEventos\obj\Debug\PTesEventos.exe
+C:\Users\0030482421009\source\repos\PTesEventos\PTesEventos\obj\Debug\PTesEventos.pdb

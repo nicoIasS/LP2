@@ -1,0 +1,27 @@
+C:\Users\0030482421009\source\repos\PTesteMetodos\PTesteMetodos\bin\Debug\PTesteMetodos.exe.config
+C:\Users\0030482421009\source\repos\PTesteMetodos\PTesteMetodos\bin\Debug\PTesteMetodos.exe
+C:\Users\0030482421009\source\repos\PTesteMetodos\PTesteMetodos\bin\Debug\PTesteMetodos.pdb
+C:\Users\0030482421009\source\repos\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.csproj.AssemblyReference.cache
+C:\Users\0030482421009\source\repos\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.Form1.resources
+C:\Users\0030482421009\source\repos\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.Properties.Resources.resources
+C:\Users\0030482421009\source\repos\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.csproj.GenerateResource.cache
+C:\Users\0030482421009\source\repos\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.csproj.CoreCompileInputs.cache
+C:\Users\0030482421009\source\repos\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.exe
+C:\Users\0030482421009\source\repos\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.pdb
+C:\Users\0030482421009\source\repos\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.frmExercicio2.resources
+C:\Users\0030482421009\source\repos\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.frmExercicio3.resources
+C:\Users\0030482421009\source\repos\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.frmExercicio4.resources
+C:\Users\nicol\OneDrive\Área de Trabalho\PTesteMetodos\PTesteMetodos\bin\Debug\PTesteMetodos.exe.config
+C:\Users\nicol\OneDrive\Área de Trabalho\PTesteMetodos\PTesteMetodos\bin\Debug\PTesteMetodos.exe
+C:\Users\nicol\OneDrive\Área de Trabalho\PTesteMetodos\PTesteMetodos\bin\Debug\PTesteMetodos.pdb
+C:\Users\nicol\OneDrive\Área de Trabalho\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.csproj.AssemblyReference.cache
+C:\Users\nicol\OneDrive\Área de Trabalho\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.Form1.resources
+C:\Users\nicol\OneDrive\Área de Trabalho\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.frmExercicio2.resources
+C:\Users\nicol\OneDrive\Área de Trabalho\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.frmExercicio3.resources
+C:\Users\nicol\OneDrive\Área de Trabalho\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.frmExercicio4.resources
+C:\Users\nicol\OneDrive\Área de Trabalho\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.frmExercicio5.resources
+C:\Users\nicol\OneDrive\Área de Trabalho\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.Properties.Resources.resources
+C:\Users\nicol\OneDrive\Área de Trabalho\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.csproj.GenerateResource.cache
+C:\Users\nicol\OneDrive\Área de Trabalho\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\Área de Trabalho\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.exe
+C:\Users\nicol\OneDrive\Área de Trabalho\PTesteMetodos\PTesteMetodos\obj\Debug\PTesteMetodos.pdb

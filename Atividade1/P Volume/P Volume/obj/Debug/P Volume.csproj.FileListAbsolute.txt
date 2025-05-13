@@ -1,0 +1,10 @@
+C:\Users\0030482421009\source\repos\P Volume\P Volume\bin\Debug\P Volume.exe.config
+C:\Users\0030482421009\source\repos\P Volume\P Volume\bin\Debug\P Volume.exe
+C:\Users\0030482421009\source\repos\P Volume\P Volume\bin\Debug\P Volume.pdb
+C:\Users\0030482421009\source\repos\P Volume\P Volume\obj\Debug\P Volume.csproj.AssemblyReference.cache
+C:\Users\0030482421009\source\repos\P Volume\P Volume\obj\Debug\P_Volume.Form1.resources
+C:\Users\0030482421009\source\repos\P Volume\P Volume\obj\Debug\P_Volume.Properties.Resources.resources
+C:\Users\0030482421009\source\repos\P Volume\P Volume\obj\Debug\P Volume.csproj.GenerateResource.cache
+C:\Users\0030482421009\source\repos\P Volume\P Volume\obj\Debug\P Volume.csproj.CoreCompileInputs.cache
+C:\Users\0030482421009\source\repos\P Volume\P Volume\obj\Debug\P Volume.exe
+C:\Users\0030482421009\source\repos\P Volume\P Volume\obj\Debug\P Volume.pdb

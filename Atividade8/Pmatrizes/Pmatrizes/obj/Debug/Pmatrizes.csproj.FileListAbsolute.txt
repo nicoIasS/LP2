@@ -1,0 +1,22 @@
+C:\Users\0030482421009\source\repos\Pmatrizes\Pmatrizes\bin\Debug\Pmatrizes.exe.config
+C:\Users\0030482421009\source\repos\Pmatrizes\Pmatrizes\bin\Debug\Pmatrizes.exe
+C:\Users\0030482421009\source\repos\Pmatrizes\Pmatrizes\bin\Debug\Pmatrizes.pdb
+C:\Users\0030482421009\source\repos\Pmatrizes\Pmatrizes\obj\Debug\Pmatrizes.csproj.AssemblyReference.cache
+C:\Users\0030482421009\source\repos\Pmatrizes\Pmatrizes\obj\Debug\Pmatrizes.Form1.resources
+C:\Users\0030482421009\source\repos\Pmatrizes\Pmatrizes\obj\Debug\Pmatrizes.Properties.Resources.resources
+C:\Users\0030482421009\source\repos\Pmatrizes\Pmatrizes\obj\Debug\Pmatrizes.csproj.GenerateResource.cache
+C:\Users\0030482421009\source\repos\Pmatrizes\Pmatrizes\obj\Debug\Pmatrizes.csproj.CoreCompileInputs.cache
+C:\Users\0030482421009\source\repos\Pmatrizes\Pmatrizes\obj\Debug\Pmatrizes.exe
+C:\Users\0030482421009\source\repos\Pmatrizes\Pmatrizes\obj\Debug\Pmatrizes.pdb
+C:\Users\nicol\OneDrive\Área de Trabalho\LP2\Atividade8\Pmatrizes\Pmatrizes\Pmatrizes\bin\Debug\Pmatrizes.exe.config
+C:\Users\nicol\OneDrive\Área de Trabalho\LP2\Atividade8\Pmatrizes\Pmatrizes\Pmatrizes\bin\Debug\Pmatrizes.exe
+C:\Users\nicol\OneDrive\Área de Trabalho\LP2\Atividade8\Pmatrizes\Pmatrizes\Pmatrizes\bin\Debug\Pmatrizes.pdb
+C:\Users\nicol\OneDrive\Área de Trabalho\LP2\Atividade8\Pmatrizes\Pmatrizes\Pmatrizes\obj\Debug\Pmatrizes.csproj.AssemblyReference.cache
+C:\Users\nicol\OneDrive\Área de Trabalho\LP2\Atividade8\Pmatrizes\Pmatrizes\Pmatrizes\obj\Debug\Pmatrizes.Form1.resources
+C:\Users\nicol\OneDrive\Área de Trabalho\LP2\Atividade8\Pmatrizes\Pmatrizes\Pmatrizes\obj\Debug\Pmatrizes.frmEx4.resources
+C:\Users\nicol\OneDrive\Área de Trabalho\LP2\Atividade8\Pmatrizes\Pmatrizes\Pmatrizes\obj\Debug\Pmatrizes.frmEx5.resources
+C:\Users\nicol\OneDrive\Área de Trabalho\LP2\Atividade8\Pmatrizes\Pmatrizes\Pmatrizes\obj\Debug\Pmatrizes.Properties.Resources.resources
+C:\Users\nicol\OneDrive\Área de Trabalho\LP2\Atividade8\Pmatrizes\Pmatrizes\Pmatrizes\obj\Debug\Pmatrizes.csproj.GenerateResource.cache
+C:\Users\nicol\OneDrive\Área de Trabalho\LP2\Atividade8\Pmatrizes\Pmatrizes\Pmatrizes\obj\Debug\Pmatrizes.csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\Área de Trabalho\LP2\Atividade8\Pmatrizes\Pmatrizes\Pmatrizes\obj\Debug\Pmatrizes.exe
+C:\Users\nicol\OneDrive\Área de Trabalho\LP2\Atividade8\Pmatrizes\Pmatrizes\Pmatrizes\obj\Debug\Pmatrizes.pdb

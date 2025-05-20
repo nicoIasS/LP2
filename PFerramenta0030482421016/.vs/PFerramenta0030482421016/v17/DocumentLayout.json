@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\0030482421009\\source\\repos\\PFerramenta0030482421016\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|c:\\users\\0030482421009\\source\\repos\\pferramenta0030482421016\\pferramenta0030482421016\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|solutionrelative:pferramenta0030482421016\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|c:\\users\\0030482421009\\source\\repos\\pferramenta0030482421016\\pferramenta0030482421016\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|solutionrelative:pferramenta0030482421016\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\0030482421009\\source\\repos\\PFerramenta0030482421016\\PFerramenta0030482421016\\Form1.cs",
+              "RelativeDocumentMoniker": "PFerramenta0030482421016\\Form1.cs",
+              "ToolTip": "C:\\Users\\0030482421009\\source\\repos\\PFerramenta0030482421016\\PFerramenta0030482421016\\Form1.cs",
+              "RelativeToolTip": "PFerramenta0030482421016\\Form1.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:54:28.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\0030482421009\\source\\repos\\PFerramenta0030482421016\\PFerramenta0030482421016\\Form1.cs",
+              "RelativeDocumentMoniker": "PFerramenta0030482421016\\Form1.cs",
+              "ToolTip": "C:\\Users\\0030482421009\\source\\repos\\PFerramenta0030482421016\\PFerramenta0030482421016\\Form1.cs [Design]",
+              "RelativeToolTip": "PFerramenta0030482421016\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:35:07.994Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

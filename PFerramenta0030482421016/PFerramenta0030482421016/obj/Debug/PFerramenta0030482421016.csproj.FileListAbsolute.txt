@@ -1,0 +1,11 @@
+C:\Users\0030482421009\source\repos\PFerramenta0030482421016\PFerramenta0030482421016\bin\Debug\PFerramenta0030482421016.exe.config
+C:\Users\0030482421009\source\repos\PFerramenta0030482421016\PFerramenta0030482421016\bin\Debug\PFerramenta0030482421016.exe
+C:\Users\0030482421009\source\repos\PFerramenta0030482421016\PFerramenta0030482421016\bin\Debug\PFerramenta0030482421016.pdb
+C:\Users\0030482421009\source\repos\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.csproj.AssemblyReference.cache
+C:\Users\0030482421009\source\repos\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.Form1.resources
+C:\Users\0030482421009\source\repos\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.Properties.Resources.resources
+C:\Users\0030482421009\source\repos\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.csproj.GenerateResource.cache
+C:\Users\0030482421009\source\repos\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.csproj.CoreCompileInputs.cache
+C:\Users\0030482421009\source\repos\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.exe
+C:\Users\0030482421009\source\repos\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.pdb
+C:\Users\0030482421009\source\repos\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.exe.config

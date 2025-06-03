@@ -1,14 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\0030482421009\\source\\repos\\PFerramenta0030482421016\\",
+  "WorkspaceRootPath": "C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|c:\\users\\0030482421009\\source\\repos\\pferramenta0030482421016\\pferramenta0030482421016\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|solutionrelative:pferramenta0030482421016\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|c:\\users\\0030482421009\\desktop\\lp2\\trabalho\\pferramenta0030482421016\\pferramenta0030482421016\\frmcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|solutionrelative:pferramenta0030482421016\\frmcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|c:\\users\\0030482421009\\source\\repos\\pferramenta0030482421016\\pferramenta0030482421016\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|solutionrelative:pferramenta0030482421016\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|c:\\users\\0030482421009\\desktop\\lp2\\trabalho\\pferramenta0030482421016\\pferramenta0030482421016\\frmcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|solutionrelative:pferramenta0030482421016\\frmcategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\pferramenta0030482421016\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|solutionrelative:pferramenta0030482421016\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\pferramenta0030482421016\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|solutionrelative:pferramenta0030482421016\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\pferramenta0030482421016\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|solutionrelative:pferramenta0030482421016\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\pferramenta0030482421016\\fabricante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|solutionrelative:pferramenta0030482421016\\fabricante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|c:\\users\\0030482421009\\desktop\\lp2\\trabalho\\pferramenta0030482421016\\pferramenta0030482421016\\ferramentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|solutionrelative:pferramenta0030482421016\\ferramentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|c:\\users\\0030482421009\\desktop\\lp2\\trabalho\\pferramenta0030482421016\\pferramenta0030482421016\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F938D320-9474-4E2E-8459-FEF92678B0CF}|PFerramenta0030482421016\\PFerramenta0030482421016.csproj|solutionrelative:pferramenta0030482421016\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,35 +42,108 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\0030482421009\\source\\repos\\PFerramenta0030482421016\\PFerramenta0030482421016\\Form1.cs",
-              "RelativeDocumentMoniker": "PFerramenta0030482421016\\Form1.cs",
-              "ToolTip": "C:\\Users\\0030482421009\\source\\repos\\PFerramenta0030482421016\\PFerramenta0030482421016\\Form1.cs",
-              "RelativeToolTip": "PFerramenta0030482421016\\Form1.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBwAAABHAAAAAAAAAA==",
+              "Title": "frmCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\PFerramenta0030482421016\\frmCategoria.cs",
+              "RelativeDocumentMoniker": "PFerramenta0030482421016\\frmCategoria.cs",
+              "ToolTip": "C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\PFerramenta0030482421016\\frmCategoria.cs",
+              "RelativeToolTip": "PFerramenta0030482421016\\frmCategoria.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwB8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T13:54:28.496Z",
+              "WhenOpened": "2025-06-03T11:31:20.61Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\0030482421009\\source\\repos\\PFerramenta0030482421016\\PFerramenta0030482421016\\Form1.cs",
-              "RelativeDocumentMoniker": "PFerramenta0030482421016\\Form1.cs",
-              "ToolTip": "C:\\Users\\0030482421009\\source\\repos\\PFerramenta0030482421016\\PFerramenta0030482421016\\Form1.cs [Design]",
-              "RelativeToolTip": "PFerramenta0030482421016\\Form1.cs [Design]",
+              "Title": "frmCategoria.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\PFerramenta0030482421016\\frmCategoria.cs",
+              "RelativeDocumentMoniker": "PFerramenta0030482421016\\frmCategoria.cs",
+              "ToolTip": "C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\PFerramenta0030482421016\\frmCategoria.cs [Design]",
+              "RelativeToolTip": "PFerramenta0030482421016\\frmCategoria.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T13:35:07.994Z",
+              "WhenOpened": "2025-06-03T11:22:26.849Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\PFerramenta0030482421016\\Program.cs",
+              "RelativeDocumentMoniker": "PFerramenta0030482421016\\Program.cs",
+              "ToolTip": "C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\PFerramenta0030482421016\\Program.cs",
+              "RelativeToolTip": "PFerramenta0030482421016\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T11:19:37.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Ferramentas.cs",
+              "DocumentMoniker": "C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\PFerramenta0030482421016\\Ferramentas.cs",
+              "RelativeDocumentMoniker": "PFerramenta0030482421016\\Ferramentas.cs",
+              "ToolTip": "C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\PFerramenta0030482421016\\Ferramentas.cs",
+              "RelativeToolTip": "PFerramenta0030482421016\\Ferramentas.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAFcAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:17:21.213Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Fabricante.cs",
+              "DocumentMoniker": "C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\PFerramenta0030482421016\\Fabricante.cs",
+              "RelativeDocumentMoniker": "PFerramenta0030482421016\\Fabricante.cs",
+              "ToolTip": "C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\PFerramenta0030482421016\\Fabricante.cs",
+              "RelativeToolTip": "PFerramenta0030482421016\\Fabricante.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwCsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T14:46:30.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\PFerramenta0030482421016\\Categoria.cs",
+              "RelativeDocumentMoniker": "PFerramenta0030482421016\\Categoria.cs",
+              "ToolTip": "C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\PFerramenta0030482421016\\Categoria.cs",
+              "RelativeToolTip": "PFerramenta0030482421016\\Categoria.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAkwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T13:08:33.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\PFerramenta0030482421016\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "PFerramenta0030482421016\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\PFerramenta0030482421016\\frmPrincipal.cs",
+              "RelativeToolTip": "PFerramenta0030482421016\\frmPrincipal.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAApwEIAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T13:07:07.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\PFerramenta0030482421016\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "PFerramenta0030482421016\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\0030482421009\\Desktop\\LP2\\trabalho\\PFerramenta0030482421016\\PFerramenta0030482421016\\frmPrincipal.cs [Design]",
+              "RelativeToolTip": "PFerramenta0030482421016\\frmPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T12:59:37.557Z",
               "EditorCaption": " [Design]"
             }
           ]

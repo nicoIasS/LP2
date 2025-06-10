@@ -33,9 +33,9 @@ namespace PFerramenta0030482421016
             try
             {
                 SqlCommand mycommand;
-                mycommand = new SqlCommand("INSERT INTO FABRICANTE VALUES(@nomeFantasia)", frmPrincipal.conexao);
-                mycommand.Parameters.Add(new SqlParameter("@nomeFantasia)", SqlDbType.VarChar));
-                mycommand.Parameters["@nomeFantasia"].Value = NomeFantasia;
+                mycommand = new SqlCommand("INSERT INTO FABRICANTE VALUES (@nomefantasia)", frmPrincipal.conexao);
+                mycommand.Parameters.Add(new SqlParameter("@nomefantasia", SqlDbType.VarChar));
+                mycommand.Parameters["@nomefantasia"].Value = NomeFantasia;
                 retorno = mycommand.ExecuteNonQuery();
             }
             catch(Exception ex) { throw ex; }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,35 +11,29 @@ using System.Windows.Forms;
 
 namespace PFerramenta0030482421016
 {
-    public partial class frmCategoria : Form
+    public partial class frmFabricante : Form
     {
-        private BindingSource bnCategoria = new BindingSource();
+        private BindingSource bnFabricante = new BindingSource();
         private bool bInlcusao = false;
-        private DataSet dsCategoria = new DataSet();
+        private DataSet dsFabricante = new DataSet();
 
-
-        public frmCategoria()
+        public frmFabricante()
         {
             InitializeComponent();
         }
 
-        private void tabPage1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void frmCategoria_Load(object sender, EventArgs e)
+        private void frmFabricante_Load(object sender, EventArgs e)
         {
             try
-            {   
-                Categoria RegCat = new Categoria();
-                dsCategoria.Tables.Add(RegCat.Listar());
-                bnCategoria.DataSource = dsCategoria.Tables["CATEGORIA"];
-                dgvCategoria.DataSource = bnCategoria;
-                bnvCategoria.BindingSource = bnCategoria;
+            {
+                Fabricante RegFab = new Fabricante();
+                dsFabricante.Tables.Add(RegFab.Listar());
+                bnFabricante.DataSource = dsFabricante.Tables["FABRICANTE"];
+                dgvFabricante.DataSource = bnFabricante;
+                bnvFabricante.BindingSource = bnFabricante;
 
-                txtId.DataBindings.Add("TEXT", bnCategoria, "id");
-                txtDescricao.DataBindings.Add("TEXT", bnCategoria, "descricao");
+                txtId.DataBindings.Add("TEXT", bnFabricante, "id");
+                txtNome.DataBindings.Add("TEXT", bnFabricante, "nomefantasia");
             }
             catch (Exception ex)
             {
@@ -48,15 +43,15 @@ namespace PFerramenta0030482421016
 
         private void btnNovoRegistro_Click(object sender, EventArgs e)
         {
-            if(tbCategoria.SelectedIndex == 0)
+            if (tbFabricante.SelectedIndex == 0)
             {
-                tbCategoria.SelectTab(1);
+                tbFabricante.SelectTab(1);
             }
 
-            bnCategoria.AddNew();
-            txtDescricao.Enabled = true;
-            txtDescricao.Focus();
-            btnSalvar.Enabled= true;
+            bnFabricante.AddNew();
+            txtNome.Enabled = true;
+            txtNome.Focus();
+            btnSalvar.Enabled = true;
             btnAlterar.Enabled = false;
             btnNovoRegistro.Enabled = false;
             btnExcluir.Enabled = false;
@@ -67,23 +62,24 @@ namespace PFerramenta0030482421016
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            if( txtDescricao.Text == "" || (txtDescricao.Text.Replace(" ", "").Length < 5))
+            if (txtNome.Text == "" || (txtNome.Text.Replace(" ", "").Length < 2))
             {
-                MessageBox.Show("Categoria inválida");
+                MessageBox.Show("Fabricante inválida");
             }
             else
             {
-                Categoria RegCat = new Categoria();
-                RegCat.IdCategoria = Convert.ToInt16(txtId.Text);
-                RegCat.Descricao = txtDescricao.Text;
+                Fabricante RegFab = new Fabricante();
+
+                RegFab.IdFabricante = Convert.ToInt16(txtId.Text);
+                RegFab.NomeFantasia = txtNome.Text;
                 if (bInlcusao)
                 {
-                    if (RegCat.Salvar() > 0)
+                    if (RegFab.Salvar() > 0)
                     {
-                        MessageBox.Show("Categoria adicionada com sucesso!");
+                        MessageBox.Show("Fabricante adicionada com sucesso!");
 
                         txtId.Enabled = false;
-                        txtDescricao.Enabled = false;
+                        txtNome.Enabled = false;
                         btnSalvar.Enabled = false;
                         btnAlterar.Enabled = true;
                         btnNovoRegistro.Enabled = true;
@@ -92,24 +88,24 @@ namespace PFerramenta0030482421016
 
                         bInlcusao = false;
 
-                        dsCategoria.Tables.Clear();
-                        dsCategoria.Tables.Clear();
-                        dsCategoria.Tables.Add(RegCat.Listar());
-                        bnCategoria.DataSource = dsCategoria.Tables["CATEGORIA"];
+                        dsFabricante.Tables.Clear();
+                        dsFabricante.Tables.Clear();
+                        dsFabricante.Tables.Add(RegFab.Listar());
+                        bnFabricante.DataSource = dsFabricante.Tables["FABRICANTE"];
 
                     }
                     else
                     {
-                        MessageBox.Show("Erro ao gravar categoria!");
+                        MessageBox.Show("Erro ao gravar Fabricante!");
                     }
                 }
                 else
                 {
-                    if (RegCat.Alterar() > 0)
+                    if (RegFab.Alterar() > 0)
                     {
-                        MessageBox.Show("Categoriaa adicionada com sucesso!");
+                        MessageBox.Show("Fabricante adicionada com sucesso!");
                         txtId.Enabled = false;
-                        txtDescricao.Enabled = false;
+                        txtNome.Enabled = false;
                         btnSalvar.Enabled = false;
                         btnAlterar.Enabled = true;
                         btnNovoRegistro.Enabled = true;
@@ -118,10 +114,10 @@ namespace PFerramenta0030482421016
 
                         bInlcusao = false;
 
-                        dsCategoria.Tables.Clear();
-                        dsCategoria.Tables.Clear();
-                        dsCategoria.Tables.Add(RegCat.Listar());
-                        bnCategoria.DataSource = dsCategoria.Tables["CATEGORIA"];
+                        dsFabricante.Tables.Clear();
+                        dsFabricante.Tables.Clear();
+                        dsFabricante.Tables.Add(RegFab.Listar());
+                        bnFabricante.DataSource = dsFabricante.Tables["FABRICANTE"];
                     }
                 }
 
@@ -130,41 +126,41 @@ namespace PFerramenta0030482421016
 
         private void btnExcluir_Click(object sender, EventArgs e)
         {
-            if (tbCategoria.SelectedIndex == 0)
+            if (tbFabricante.SelectedIndex == 0)
             {
-                tbCategoria.SelectTab(1);
+                tbFabricante.SelectTab(1);
             }
             if (MessageBox.Show("Confirma exclusão?", "Yes or No", MessageBoxButtons.YesNo, MessageBoxIcon.Question, MessageBoxDefaultButton.Button2) == DialogResult.Yes)
             {
-                Categoria RegCat = new Categoria();
-                RegCat.IdCategoria = Convert.ToInt16(txtId.Text);
+                Fabricante RegCat = new Fabricante();
+                RegCat.IdFabricante = Convert.ToInt16(txtId.Text);
 
                 if (RegCat.Excluir() > 0)
                 {
-                    MessageBox.Show("Categoria Excluída com sucesso!");
+                    MessageBox.Show("Fabricante Excluída com sucesso!");
 
-                    Categoria R = new Categoria();
-                    dsCategoria.Tables.Clear();
-                    dsCategoria.Tables.Add(R.Listar());
-                    bnCategoria.DataSource = dsCategoria.Tables["CATEGORIA"];
+                    Fabricante R = new Fabricante();
+                    dsFabricante.Tables.Clear();
+                    dsFabricante.Tables.Add(R.Listar());
+                    bnFabricante.DataSource = dsFabricante.Tables["FABRICANTE"];
 
                 }
                 else
                 {
-                    MessageBox.Show("Erro ao excluir categoria!");
+                    MessageBox.Show("Erro ao excluir Fabricante!");
                 }
 
 
-             }           
+            }
         }
 
         private void btnCancelar_Click(object sender, EventArgs e)
         {
-            bnCategoria.CancelEdit();
+            bnFabricante.CancelEdit();
 
             txtId.Enabled = false;
-            txtDescricao.Enabled = false;
-            
+            txtNome.Enabled = false;
+            bnFabricante.CancelEdit();
             btnAlterar.Enabled = true;
             btnNovoRegistro.Enabled = true;
             btnSalvar.Enabled = false;
@@ -176,13 +172,13 @@ namespace PFerramenta0030482421016
 
         private void btnAlterar_Click(object sender, EventArgs e)
         {
-            if(tbCategoria.SelectedIndex == 0)
+            if (tbFabricante.SelectedIndex == 0)
             {
-                tbCategoria.SelectTab(1);
+                tbFabricante.SelectTab(1);
             }
 
-            txtDescricao.Enabled = true;
-            txtDescricao.Focus();
+            txtNome.Enabled = true;
+            txtNome.Focus();
             btnSalvar.Enabled = true;
             btnAlterar.Enabled = false;
             btnNovoRegistro.Enabled = false;
@@ -197,3 +193,4 @@ namespace PFerramenta0030482421016
         }
     }
 }
+

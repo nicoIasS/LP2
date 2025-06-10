@@ -49,10 +49,10 @@ namespace PFerramenta0030482421016
             try
             {
                 SqlCommand mycommand;
-                mycommand = new SqlCommand("UPDATE CATEGORIA SET descricao =" + "@descricao WHERE id = @ idcategoria", frmPrincipal.conexao);
+                mycommand = new SqlCommand("UPDATE CATEGORIA SET descricao =" + "@descricao WHERE id = @idcategoria", frmPrincipal.conexao);
                 mycommand.Parameters.Add(new SqlParameter("@idcategoria", SqlDbType.Int));
                 mycommand.Parameters.Add(new SqlParameter("@descricao", SqlDbType.VarChar));
-                mycommand.Parameters["@descricao"].Value = IdCategoria;
+                mycommand.Parameters["@idcategoria"].Value = IdCategoria;
                 mycommand.Parameters["@descricao"].Value = Descricao;
                 retorno = mycommand.ExecuteNonQuery();
             }
@@ -67,7 +67,7 @@ namespace PFerramenta0030482421016
                 SqlCommand mycommand;
                 mycommand = new SqlCommand("DELETE FROM CATEGORIA WHERE id=@idcategoria", frmPrincipal.conexao);
                 mycommand.Parameters.Add(new SqlParameter("@idcategoria", SqlDbType.Int));
-                mycommand.Parameters["idcategoria"].Value = IdCategoria;
+                mycommand.Parameters["@idcategoria"].Value = IdCategoria;
                 retorno = mycommand.ExecuteNonQuery();
             }
             catch (Exception ex) { throw ex; } 

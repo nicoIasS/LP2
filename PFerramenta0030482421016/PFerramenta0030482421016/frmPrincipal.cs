@@ -62,8 +62,34 @@ namespace PFerramenta0030482421016
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void fabricanteToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            if (Application.OpenForms.OfType<frmFabricante>().Count() > 0)
+            {
+                Application.OpenForms["frmFabricante"].BringToFront();
+            }
+            else
+            {
+                frmFabricante frmFabricante = new frmFabricante();
+                frmFabricante.MdiParent = this;
+                frmFabricante.WindowState = FormWindowState.Maximized;
+                frmFabricante.Show();
+            }
+        }
+
+        private void ferramentasToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms.OfType<frmFerramenta>().Count() > 0)
+            {
+                Application.OpenForms["frmFerramentas"].BringToFront();
+            }
+            else
+            {
+                frmFerramenta frmFerramenta = new frmFerramenta();
+                frmFerramenta.MdiParent = this;
+                frmFerramenta.WindowState = FormWindowState.Maximized;
+                frmFerramenta.Show();
+            }
         }
     }
 }

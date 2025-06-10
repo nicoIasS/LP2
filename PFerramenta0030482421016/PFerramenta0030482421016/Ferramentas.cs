@@ -13,11 +13,11 @@ namespace PFerramenta0030482421016
     internal class Ferramentas
     {
         public int IdFerramenta { get; set; }
-        public int Nome { get; set; }
+        public string Nome { get; set; }
         public int Fornecedor { get; set; }
-        public int Distribuicao { get; set; }
-        public int DtCadastro { get; set; }
-        public int SiteOficial { get; set; }
+        public char Distribuicao { get; set; }
+        public DateTime DtCadastro { get; set; }
+        public string SiteOficial { get; set; }
         public int IdCategoria { get; set; }
         public int IdFabricante { get; set; }
 
@@ -40,8 +40,8 @@ namespace PFerramenta0030482421016
             try
             {
                 SqlCommand mycommand;
-                mycommand = new SqlCommand("INSERT INTO FERRAMENTA VALUES @nome, @distribuicao, @dtcadastro, @siteoficial, @idcategoria, @idfabricante", frmPrincipal.conexao);
-                mycommand.Parameters.Add(new SqlParameter("@nome", SqlDbType.VarChar));
+                mycommand = new SqlCommand("INSERT INTO FERRAMENTA VALUES (@nome, @distribuicao, @dtcadastro, @siteoficial, @idcategoria, @idfabricante)", frmPrincipal.conexao);
+                mycommand.Parameters.Add(new SqlParameter("@nome", SqlDbType.VarChar)); 
                 mycommand.Parameters.Add(new SqlParameter("@distribuicao", SqlDbType.Char));
                 mycommand.Parameters.Add(new SqlParameter("@dtcadastro", SqlDbType.DateTime));
                 mycommand.Parameters.Add(new SqlParameter("@siteoficial", SqlDbType.VarChar));

@@ -42,3 +42,17 @@ C:\Users\0030482421009\Desktop\LP2\trabalho\PFerramenta0030482421016\PFerramenta
 C:\Users\0030482421009\Desktop\LP2\trabalho\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.exe
 C:\Users\0030482421009\Desktop\LP2\trabalho\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.pdb
 C:\Users\0030482421009\Desktop\LP2\trabalho\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.frmCategoria.resources
+C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\bin\Debug\PFerramenta0030482421016.exe.config
+C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\bin\Debug\PFerramenta0030482421016.exe
+C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\bin\Debug\PFerramenta0030482421016.pdb
+C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.csproj.AssemblyReference.cache
+C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.exe.config
+C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.frmCategoria.resources
+C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.frmPrincipal.resources
+C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.Properties.Resources.resources
+C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.csproj.GenerateResource.cache
+C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.csproj.CoreCompileInputs.cache
+C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.exe
+C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.pdb
+C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.frmFabricante.resources
+C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.frmFerramenta.resources

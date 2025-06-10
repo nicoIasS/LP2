@@ -1,6 +1,6 @@
 ﻿namespace PFerramenta0030482421016
 {
-    partial class frmCategoria
+    partial class frmFabricante
     {
         /// <summary>
         /// Required designer variable.
@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCategoria));
-            this.bnvCategoria = new System.Windows.Forms.BindingNavigator(this.components);
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmFabricante));
+            this.bnvFabricante = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
@@ -46,28 +46,28 @@
             this.btnAlterar = new System.Windows.Forms.ToolStripButton();
             this.btnCancelar = new System.Windows.Forms.ToolStripButton();
             this.btnSair = new System.Windows.Forms.ToolStripButton();
-            this.tbCategoria = new System.Windows.Forms.TabControl();
+            this.tbFabricante = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.dgvCategoria = new System.Windows.Forms.DataGridView();
+            this.dgvFabricante = new System.Windows.Forms.DataGridView();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.txtDescricao = new System.Windows.Forms.TextBox();
+            this.txtNome = new System.Windows.Forms.TextBox();
             this.txtId = new System.Windows.Forms.TextBox();
-            this.lblDescricao = new System.Windows.Forms.Label();
+            this.lblNome = new System.Windows.Forms.Label();
             this.lblID = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.bnvCategoria)).BeginInit();
-            this.bnvCategoria.SuspendLayout();
-            this.tbCategoria.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.bnvFabricante)).BeginInit();
+            this.bnvFabricante.SuspendLayout();
+            this.tbFabricante.SuspendLayout();
             this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCategoria)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvFabricante)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // bnvCategoria
+            // bnvFabricante
             // 
-            this.bnvCategoria.AddNewItem = null;
-            this.bnvCategoria.CountItem = this.bindingNavigatorCountItem;
-            this.bnvCategoria.DeleteItem = null;
-            this.bnvCategoria.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bnvFabricante.AddNewItem = null;
+            this.bnvFabricante.CountItem = this.bindingNavigatorCountItem;
+            this.bnvFabricante.DeleteItem = null;
+            this.bnvFabricante.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.bindingNavigatorMoveFirstItem,
             this.bindingNavigatorMovePreviousItem,
             this.bindingNavigatorSeparator,
@@ -83,16 +83,16 @@
             this.btnAlterar,
             this.btnCancelar,
             this.btnSair});
-            this.bnvCategoria.Location = new System.Drawing.Point(0, 0);
-            this.bnvCategoria.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
-            this.bnvCategoria.MoveLastItem = this.bindingNavigatorMoveLastItem;
-            this.bnvCategoria.MoveNextItem = this.bindingNavigatorMoveNextItem;
-            this.bnvCategoria.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
-            this.bnvCategoria.Name = "bnvCategoria";
-            this.bnvCategoria.PositionItem = this.bindingNavigatorPositionItem;
-            this.bnvCategoria.Size = new System.Drawing.Size(800, 25);
-            this.bnvCategoria.TabIndex = 0;
-            this.bnvCategoria.Text = "bindingNavigator1";
+            this.bnvFabricante.Location = new System.Drawing.Point(0, 0);
+            this.bnvFabricante.MoveFirstItem = this.bindingNavigatorMoveFirstItem;
+            this.bnvFabricante.MoveLastItem = this.bindingNavigatorMoveLastItem;
+            this.bnvFabricante.MoveNextItem = this.bindingNavigatorMoveNextItem;
+            this.bnvFabricante.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
+            this.bnvFabricante.Name = "bnvFabricante";
+            this.bnvFabricante.PositionItem = this.bindingNavigatorPositionItem;
+            this.bnvFabricante.Size = new System.Drawing.Size(800, 25);
+            this.bnvFabricante.TabIndex = 1;
+            this.bnvFabricante.Text = "bindingNavigator1";
             // 
             // bindingNavigatorCountItem
             // 
@@ -224,19 +224,19 @@
             this.btnSair.Text = "Sair";
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
-            // tbCategoria
+            // tbFabricante
             // 
-            this.tbCategoria.Controls.Add(this.tabPage1);
-            this.tbCategoria.Controls.Add(this.tabPage2);
-            this.tbCategoria.Location = new System.Drawing.Point(67, 100);
-            this.tbCategoria.Name = "tbCategoria";
-            this.tbCategoria.SelectedIndex = 0;
-            this.tbCategoria.Size = new System.Drawing.Size(680, 275);
-            this.tbCategoria.TabIndex = 1;
+            this.tbFabricante.Controls.Add(this.tabPage1);
+            this.tbFabricante.Controls.Add(this.tabPage2);
+            this.tbFabricante.Location = new System.Drawing.Point(60, 88);
+            this.tbFabricante.Name = "tbFabricante";
+            this.tbFabricante.SelectedIndex = 0;
+            this.tbFabricante.Size = new System.Drawing.Size(680, 275);
+            this.tbFabricante.TabIndex = 2;
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.dgvCategoria);
+            this.tabPage1.Controls.Add(this.dgvFabricante);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
@@ -244,21 +244,20 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Dados";
             this.tabPage1.UseVisualStyleBackColor = true;
-            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
-            // dgvCategoria
+            // dgvFabricante
             // 
-            this.dgvCategoria.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCategoria.Location = new System.Drawing.Point(6, 6);
-            this.dgvCategoria.Name = "dgvCategoria";
-            this.dgvCategoria.Size = new System.Drawing.Size(660, 237);
-            this.dgvCategoria.TabIndex = 0;
+            this.dgvFabricante.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvFabricante.Location = new System.Drawing.Point(6, 6);
+            this.dgvFabricante.Name = "dgvFabricante";
+            this.dgvFabricante.Size = new System.Drawing.Size(660, 237);
+            this.dgvFabricante.TabIndex = 0;
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.txtDescricao);
+            this.tabPage2.Controls.Add(this.txtNome);
             this.tabPage2.Controls.Add(this.txtId);
-            this.tabPage2.Controls.Add(this.lblDescricao);
+            this.tabPage2.Controls.Add(this.lblNome);
             this.tabPage2.Controls.Add(this.lblID);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
@@ -268,14 +267,14 @@
             this.tabPage2.Text = "Detalhes";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // txtDescricao
+            // txtNome
             // 
-            this.txtDescricao.Enabled = false;
-            this.txtDescricao.Location = new System.Drawing.Point(118, 73);
-            this.txtDescricao.MaxLength = 50;
-            this.txtDescricao.Name = "txtDescricao";
-            this.txtDescricao.Size = new System.Drawing.Size(367, 20);
-            this.txtDescricao.TabIndex = 3;
+            this.txtNome.Enabled = false;
+            this.txtNome.Location = new System.Drawing.Point(118, 73);
+            this.txtNome.MaxLength = 50;
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(367, 20);
+            this.txtNome.TabIndex = 3;
             // 
             // txtId
             // 
@@ -285,14 +284,14 @@
             this.txtId.Size = new System.Drawing.Size(150, 20);
             this.txtId.TabIndex = 2;
             // 
-            // lblDescricao
+            // lblNome
             // 
-            this.lblDescricao.AutoSize = true;
-            this.lblDescricao.Location = new System.Drawing.Point(57, 73);
-            this.lblDescricao.Name = "lblDescricao";
-            this.lblDescricao.Size = new System.Drawing.Size(55, 13);
-            this.lblDescricao.TabIndex = 1;
-            this.lblDescricao.Text = "Descrição";
+            this.lblNome.AutoSize = true;
+            this.lblNome.Location = new System.Drawing.Point(57, 73);
+            this.lblNome.Name = "lblNome";
+            this.lblNome.Size = new System.Drawing.Size(55, 13);
+            this.lblNome.TabIndex = 1;
+            this.lblNome.Text = "Descrição";
             // 
             // lblID
             // 
@@ -303,23 +302,22 @@
             this.lblID.TabIndex = 0;
             this.lblID.Text = "ID";
             // 
-            // frmCategoria
+            // frmFabricante
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.tbCategoria);
-            this.Controls.Add(this.bnvCategoria);
-            this.Name = "frmCategoria";
-            this.Text = "frmCategoria";
-            this.Load += new System.EventHandler(this.frmCategoria_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.bnvCategoria)).EndInit();
-            this.bnvCategoria.ResumeLayout(false);
-            this.bnvCategoria.PerformLayout();
-            this.tbCategoria.ResumeLayout(false);
+            this.Controls.Add(this.tbFabricante);
+            this.Controls.Add(this.bnvFabricante);
+            this.Name = "frmFabricante";
+            this.Text = "frmFabricante";
+            this.Load += new System.EventHandler(this.frmFabricante_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.bnvFabricante)).EndInit();
+            this.bnvFabricante.ResumeLayout(false);
+            this.bnvFabricante.PerformLayout();
+            this.tbFabricante.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCategoria)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvFabricante)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
@@ -329,7 +327,7 @@
 
         #endregion
 
-        private System.Windows.Forms.BindingNavigator bnvCategoria;
+        private System.Windows.Forms.BindingNavigator bnvFabricante;
         private System.Windows.Forms.ToolStripLabel bindingNavigatorCountItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveFirstItem;
         private System.Windows.Forms.ToolStripButton bindingNavigatorMovePreviousItem;
@@ -345,13 +343,13 @@
         private System.Windows.Forms.ToolStripButton btnAlterar;
         private System.Windows.Forms.ToolStripButton btnCancelar;
         private System.Windows.Forms.ToolStripButton btnSair;
-        private System.Windows.Forms.TabControl tbCategoria;
+        private System.Windows.Forms.TabControl tbFabricante;
         private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.DataGridView dgvFabricante;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.DataGridView dgvCategoria;
-        private System.Windows.Forms.TextBox txtDescricao;
+        private System.Windows.Forms.TextBox txtNome;
         private System.Windows.Forms.TextBox txtId;
-        private System.Windows.Forms.Label lblDescricao;
+        private System.Windows.Forms.Label lblNome;
         private System.Windows.Forms.Label lblID;
     }
 }

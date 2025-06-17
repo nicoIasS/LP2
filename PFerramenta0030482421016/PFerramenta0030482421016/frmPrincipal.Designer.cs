@@ -33,10 +33,10 @@
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.categoriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ferramentasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ferramentasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.sObreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.ferramentasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,6 +53,7 @@
             this.menuStrip1.Size = new System.Drawing.Size(533, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // cadastroToolStripMenuItem
             // 
@@ -63,26 +64,35 @@
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
             this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(71, 22);
             this.cadastroToolStripMenuItem.Text = "Cadastros";
+            this.cadastroToolStripMenuItem.Click += new System.EventHandler(this.cadastroToolStripMenuItem_Click);
             // 
             // categoriasToolStripMenuItem
             // 
             this.categoriasToolStripMenuItem.Name = "categoriasToolStripMenuItem";
-            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.categoriasToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.categoriasToolStripMenuItem.Text = "Categorias";
             this.categoriasToolStripMenuItem.Click += new System.EventHandler(this.categoriasToolStripMenuItem_Click);
             // 
             // ferramentasToolStripMenuItem
             // 
             this.ferramentasToolStripMenuItem.Name = "ferramentasToolStripMenuItem";
-            this.ferramentasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ferramentasToolStripMenuItem.Size = new System.Drawing.Size(139, 22);
             this.ferramentasToolStripMenuItem.Text = "Fabricante";
             this.ferramentasToolStripMenuItem.Click += new System.EventHandler(this.fabricanteToolStripMenuItem_Click);
+            // 
+            // ferramentasToolStripMenuItem1
+            // 
+            this.ferramentasToolStripMenuItem1.Name = "ferramentasToolStripMenuItem1";
+            this.ferramentasToolStripMenuItem1.Size = new System.Drawing.Size(139, 22);
+            this.ferramentasToolStripMenuItem1.Text = "Ferramentas";
+            this.ferramentasToolStripMenuItem1.Click += new System.EventHandler(this.ferramentasToolStripMenuItem1_Click);
             // 
             // sObreToolStripMenuItem
             // 
             this.sObreToolStripMenuItem.Name = "sObreToolStripMenuItem";
             this.sObreToolStripMenuItem.Size = new System.Drawing.Size(49, 22);
             this.sObreToolStripMenuItem.Text = "Sobre";
+            this.sObreToolStripMenuItem.Click += new System.EventHandler(this.sObreToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem
             // 
@@ -97,13 +107,6 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
-            // 
-            // ferramentasToolStripMenuItem1
-            // 
-            this.ferramentasToolStripMenuItem1.Name = "ferramentasToolStripMenuItem1";
-            this.ferramentasToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.ferramentasToolStripMenuItem1.Text = "Ferramentas";
-            this.ferramentasToolStripMenuItem1.Click += new System.EventHandler(this.ferramentasToolStripMenuItem1_Click);
             // 
             // frmPrincipal
             // 

@@ -91,5 +91,30 @@ namespace PFerramenta0030482421016
                 frmFerramenta.Show();
             }
         }
+
+        private void cadastroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sObreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (Application.OpenForms.OfType<frmSobre>().Count() > 0)
+            {
+                Application.OpenForms["frmSobre"].BringToFront();
+            }
+            else
+            {
+                frmSobre frmSobre = new frmSobre();
+                frmSobre.MdiParent = this;
+                frmSobre.WindowState = FormWindowState.Maximized;
+                frmSobre.Show();
+            }
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }

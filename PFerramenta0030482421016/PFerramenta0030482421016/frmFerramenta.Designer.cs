@@ -34,6 +34,11 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dgvFerramenta = new System.Windows.Forms.DataGridView();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.txtSiteOfc = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cbxDistribuicao = new System.Windows.Forms.ComboBox();
+            this.lblDIstribuicao = new System.Windows.Forms.Label();
+            this.lblsiteoficial = new System.Windows.Forms.Label();
             this.lblData = new System.Windows.Forms.Label();
             this.dtpCadastro = new System.Windows.Forms.DateTimePicker();
             this.cbxCategoria = new System.Windows.Forms.ComboBox();
@@ -60,11 +65,6 @@
             this.btnAlterar = new System.Windows.Forms.ToolStripButton();
             this.btnCancelar = new System.Windows.Forms.ToolStripButton();
             this.btnSair = new System.Windows.Forms.ToolStripButton();
-            this.lblsiteoficial = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.cbxDistribuicao = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtSiteOfc = new System.Windows.Forms.TextBox();
             this.tbFerramenta.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFerramenta)).BeginInit();
@@ -89,7 +89,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(672, 249);
+            this.tabPage1.Size = new System.Drawing.Size(672, 340);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Dados";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -99,6 +99,7 @@
             this.dgvFerramenta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvFerramenta.Location = new System.Drawing.Point(6, 6);
             this.dgvFerramenta.Name = "dgvFerramenta";
+            this.dgvFerramenta.ReadOnly = true;
             this.dgvFerramenta.Size = new System.Drawing.Size(660, 237);
             this.dgvFerramenta.TabIndex = 0;
             // 
@@ -107,7 +108,7 @@
             this.tabPage2.Controls.Add(this.txtSiteOfc);
             this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Controls.Add(this.cbxDistribuicao);
-            this.tabPage2.Controls.Add(this.label1);
+            this.tabPage2.Controls.Add(this.lblDIstribuicao);
             this.tabPage2.Controls.Add(this.lblsiteoficial);
             this.tabPage2.Controls.Add(this.lblData);
             this.tabPage2.Controls.Add(this.dtpCadastro);
@@ -127,6 +128,57 @@
             this.tabPage2.Text = "Detalhes";
             this.tabPage2.UseVisualStyleBackColor = true;
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            // 
+            // txtSiteOfc
+            // 
+            this.txtSiteOfc.Enabled = false;
+            this.txtSiteOfc.Location = new System.Drawing.Point(118, 156);
+            this.txtSiteOfc.MaxLength = 200;
+            this.txtSiteOfc.Name = "txtSiteOfc";
+            this.txtSiteOfc.Size = new System.Drawing.Size(367, 20);
+            this.txtSiteOfc.TabIndex = 15;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(245, 102);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(213, 13);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "1 - Grátis   2 - Paga   3- Parceira   4 - Outros";
+            // 
+            // cbxDistribuicao
+            // 
+            this.cbxDistribuicao.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxDistribuicao.Enabled = false;
+            this.cbxDistribuicao.FormattingEnabled = true;
+            this.cbxDistribuicao.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4"});
+            this.cbxDistribuicao.Location = new System.Drawing.Point(118, 99);
+            this.cbxDistribuicao.Name = "cbxDistribuicao";
+            this.cbxDistribuicao.Size = new System.Drawing.Size(121, 21);
+            this.cbxDistribuicao.TabIndex = 13;
+            // 
+            // lblDIstribuicao
+            // 
+            this.lblDIstribuicao.AutoSize = true;
+            this.lblDIstribuicao.Location = new System.Drawing.Point(37, 102);
+            this.lblDIstribuicao.Name = "lblDIstribuicao";
+            this.lblDIstribuicao.Size = new System.Drawing.Size(62, 13);
+            this.lblDIstribuicao.TabIndex = 12;
+            this.lblDIstribuicao.Text = "Distribuição";
+            // 
+            // lblsiteoficial
+            // 
+            this.lblsiteoficial.AutoSize = true;
+            this.lblsiteoficial.Location = new System.Drawing.Point(42, 159);
+            this.lblsiteoficial.Name = "lblsiteoficial";
+            this.lblsiteoficial.Size = new System.Drawing.Size(57, 13);
+            this.lblsiteoficial.TabIndex = 10;
+            this.lblsiteoficial.Text = "Site Oficial";
             // 
             // lblData
             // 
@@ -149,6 +201,7 @@
             // 
             // cbxCategoria
             // 
+            this.cbxCategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxCategoria.Enabled = false;
             this.cbxCategoria.FormattingEnabled = true;
             this.cbxCategoria.Location = new System.Drawing.Point(118, 185);
@@ -158,6 +211,7 @@
             // 
             // cbxFabricante
             // 
+            this.cbxFabricante.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxFabricante.Enabled = false;
             this.cbxFabricante.FormattingEnabled = true;
             this.cbxFabricante.Location = new System.Drawing.Point(118, 212);
@@ -378,56 +432,6 @@
             this.btnSair.Text = "Sair";
             this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
-            // lblsiteoficial
-            // 
-            this.lblsiteoficial.AutoSize = true;
-            this.lblsiteoficial.Location = new System.Drawing.Point(42, 159);
-            this.lblsiteoficial.Name = "lblsiteoficial";
-            this.lblsiteoficial.Size = new System.Drawing.Size(57, 13);
-            this.lblsiteoficial.TabIndex = 10;
-            this.lblsiteoficial.Text = "Site Oficial";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(37, 102);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(62, 13);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Distribuição";
-            // 
-            // cbxDistribuicao
-            // 
-            this.cbxDistribuicao.Enabled = false;
-            this.cbxDistribuicao.FormattingEnabled = true;
-            this.cbxDistribuicao.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4"});
-            this.cbxDistribuicao.Location = new System.Drawing.Point(118, 99);
-            this.cbxDistribuicao.Name = "cbxDistribuicao";
-            this.cbxDistribuicao.Size = new System.Drawing.Size(121, 21);
-            this.cbxDistribuicao.TabIndex = 13;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(245, 102);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(213, 13);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "1 - Grátis   2 - Paga   3- Parceira   4 - Outros";
-            // 
-            // txtSiteOfc
-            // 
-            this.txtSiteOfc.Enabled = false;
-            this.txtSiteOfc.Location = new System.Drawing.Point(118, 156);
-            this.txtSiteOfc.MaxLength = 200;
-            this.txtSiteOfc.Name = "txtSiteOfc";
-            this.txtSiteOfc.Size = new System.Drawing.Size(367, 20);
-            this.txtSiteOfc.TabIndex = 15;
-            // 
             // frmFerramenta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -484,7 +488,7 @@
         private System.Windows.Forms.Label lblData;
         private System.Windows.Forms.DateTimePicker dtpCadastro;
         private System.Windows.Forms.Label lblsiteoficial;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblDIstribuicao;
         private System.Windows.Forms.TextBox txtSiteOfc;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox cbxDistribuicao;

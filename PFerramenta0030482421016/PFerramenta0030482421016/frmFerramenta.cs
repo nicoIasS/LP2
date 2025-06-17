@@ -249,10 +249,6 @@ namespace PFerramenta0030482421016
             cbxCategoria.Enabled = true;
             cbxFabricante.Enabled = true;
 
-            cbxDistribuicao.SelectedIndex = 0;
-            cbxCategoria.SelectedIndex = 0;
-            cbxFabricante.SelectedIndex = 0;
-
             btnNovoRegistro.Enabled = false;
             btnAlterar.Enabled = false;
             btnExcluir.Enabled = false;

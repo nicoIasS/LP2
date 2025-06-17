@@ -56,3 +56,4 @@ C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta003048242
 C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.pdb
 C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.frmFabricante.resources
 C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.frmFerramenta.resources
+C:\Users\0030482421009\Desktop\LP2\PFerramenta0030482421016\PFerramenta0030482421016\obj\Debug\PFerramenta0030482421016.frmSobre.resources

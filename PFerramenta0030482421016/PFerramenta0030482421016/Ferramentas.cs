@@ -70,7 +70,7 @@ namespace PFerramenta0030482421016
                 mycommand = new SqlCommand("UPDATE ferramenta SET nome = @nome,"
                     + "distribuicao = @distribuicao,"
                     + "dtcadastro=@dtcadastro, siteoficial=@siteoficial,"
-                    + "idcategoria=@idcategoria idfabricante=@idfabricante"
+                    + "idcategoria=@idcategoria, idfabricante=@idfabricante "
                     + "WHERE id=@idferramenta", frmPrincipal.conexao);
                 mycommand.Parameters.Add(new SqlParameter("@idferramenta", SqlDbType.Int));
                 mycommand.Parameters.Add(new SqlParameter("@nome", SqlDbType.VarChar));
@@ -81,9 +81,9 @@ namespace PFerramenta0030482421016
                 mycommand.Parameters.Add(new SqlParameter("@idfabricante", SqlDbType.Int));
                 
                 mycommand.Parameters["@idferramenta"].Value = IdFerramenta;
-                mycommand.Parameters["@@nome"].Value = Nome;
-                mycommand.Parameters["@distribuicao"].Value = Fornecedor;
-                mycommand.Parameters["@dtcadastro"].Value = Distribuicao;
+                mycommand.Parameters["@nome"].Value = Nome;
+                mycommand.Parameters["@distribuicao"].Value = Distribuicao;
+                mycommand.Parameters["@dtcadastro"].Value = DtCadastro;
                 mycommand.Parameters["@siteoficial"].Value = SiteOficial;
                 mycommand.Parameters["@idcategoria"].Value = IdCategoria;
                 mycommand.Parameters["@idfabricante"].Value = IdFabricante;

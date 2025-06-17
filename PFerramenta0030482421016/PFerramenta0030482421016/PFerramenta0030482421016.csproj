@@ -126,13 +126,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="resources\asd.png" />
-    <Content Include="resources\asda.png" />
-    <Content Include="resources\asdaa.png" />
-    <Content Include="resources\asdasd.png" />
-    <Content Include="resources\asdsada.png" />
-    <Content Include="resources\dsa.png" />
-    <Content Include="resources\sdyugasuid.jpg" />
+    <Content Include="icones\asd.png" />
+    <Content Include="icones\asda.png" />
+    <Content Include="icones\asdaa.png" />
+    <Content Include="icones\asdasd.png" />
+    <Content Include="icones\asdsada.png" />
+    <Content Include="icones\dsa.png" />
+    <Content Include="icones\sdyugasuid.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

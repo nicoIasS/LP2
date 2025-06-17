@@ -93,7 +93,7 @@ namespace PFerramenta0030482421016
 
         private void btnSalvar_Click(object sender, EventArgs e)
         {
-            if (txtNome.Text == "" || (txtNome.Text.Replace(" ", "").Length < 2))
+            if (txtNome.Text == "" || (txtNome.Text.Replace(" ", "").Length < 1))
             {
                 MessageBox.Show("Nome inválido");
             }
@@ -220,15 +220,18 @@ namespace PFerramenta0030482421016
         {
             bnFerramenta.CancelEdit();
 
-            txtId.Enabled = false;
             txtNome.Enabled = false;
+            txtSiteOfc.Enabled = false;
+            cbxDistribuicao.Enabled = false;
+            dtpCadastro.Enabled = false;
+            cbxCategoria.Enabled = false;
+            cbxFabricante.Enabled = false;
 
-            btnAlterar.Enabled = true;
             btnNovoRegistro.Enabled = true;
-            btnSalvar.Enabled = false;
+            btnAlterar.Enabled = true;
             btnExcluir.Enabled = true;
+            btnSalvar.Enabled = false;
             btnCancelar.Enabled = false;
-
             bInlcusao = false;
         }
 
@@ -240,12 +243,22 @@ namespace PFerramenta0030482421016
             }
 
             txtNome.Enabled = true;
-            txtNome.Focus();
-            btnSalvar.Enabled = true;
-            btnAlterar.Enabled = false;
+            txtSiteOfc.Enabled = true;
+            cbxDistribuicao.Enabled = true;
+            dtpCadastro.Enabled = true;
+            cbxCategoria.Enabled = true;
+            cbxFabricante.Enabled = true;
+
+            cbxDistribuicao.SelectedIndex = 0;
+            cbxCategoria.SelectedIndex = 0;
+            cbxFabricante.SelectedIndex = 0;
+
             btnNovoRegistro.Enabled = false;
+            btnAlterar.Enabled = false;
             btnExcluir.Enabled = false;
+            btnSalvar.Enabled = true;
             btnCancelar.Enabled = true;
+            
             bInlcusao = false;
         }
 
